@@ -1,0 +1,65 @@
+@font-face {
+    font-family: MyFont;
+    src: url('ttf/PlayfairDisplay-Regular.ttf');
+}
+body{
+    background: rgb(33, 33, 33);
+    font-family: MyFont;
+}
+h2{
+    color: white;
+}
+.form-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 10%;
+    gap: 20px;
+    text-align: center;
+    border: 2px solid rgb(111, 208, 147);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 36, 36);
+    transition: all 0.8s ease-in-out;
+}
+::placeholder{
+    color: rgb(113, 112, 112);
+    opacity: 0.8;
+    font-size: 18px;
+}
+.login-f, .password-f{
+    height: 30px;
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(177, 247, 203);
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(247, 177, 177);
+    border-radius: 7px;
+}
+.button-sign-in{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(177, 247, 203);
+}
+.button-sign-in:hover{
+    border: 2px solid rgb(111, 208, 147);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: rgb(111, 208, 147);
+}
+.login-f:hover, .password-f:hover{
+    background-color: rgb(42, 41, 41);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
